@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#article-list{
+    padding: 10px;
+    margin: 5em;
+}
+
+nav ul{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h5{
+    text-align: center;
+    background-color: darkorange;
+}
+
+div article{
+    display: inline-block;
+    background: rgb(250, 248, 247);
+}
+
+article{
+    padding: 10px;
+    font-family: helvetica;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+section{
+    background:url(img/bromo.jpg);
+    background-size: 100%;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(197, 181, 212);
+}
+
+#footer{
+    max-width: 100%;
+    background: black;
+}
+
+#footer-wrapper{
+    margin: 0 auto;
+    max-width: 960%;
+}
+
+h1{
+text-align: center;
+font-size: 30px;
+font-family: serif;
+}
+
+ul li{
+    margin-right: 12px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#logo{
+    width: 25px;
+    margin: 6px 24px;
+    float: left;
+}
