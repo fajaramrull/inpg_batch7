@@ -1,0 +1,34 @@
+print angka 1 - 100
+print hasil ganjil
+print hasil genap
+
+var a = 1;
+
+for (a = 1; a <= 100; a++){
+  if(a % 2 === 0){
+  console.log('angka genap = ' + a);
+  }else{
+    console.log('angka ganjil = ' + a);
+  }
+}
+
+
+print angka 3 - 30
+jika angka habis dibagi 3 print hack
+jika angka habis dibagi 6 print fox
+jika angka habis dibagi 15 print hackfox
+
+var a = 30;
+
+for(a = 3; a <= 30; a+=3){
+    if (a % 15 === 0){
+        console.log('HackFox = ' + a);
+      }else if (a % 6 === 0){
+          console.log('Hack = ' + a);
+        }else{
+          console.log('Fox = ' + a);
+        }
+  }
+
+print angka 2 - 100
+cetak bilangan prima! //
