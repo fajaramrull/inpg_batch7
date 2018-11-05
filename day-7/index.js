@@ -9,11 +9,11 @@ if(name !== null){
     if(age < 17){
         console.log("Anda hanya boleh memesan juice. Harga Juice Rp. "+ juice);
         money -= juice;
-        console.log("Anda bisa pesan minum. Sisa uang anda : "+ money)
+        console.log("Anda bisa pesan minum. Sisa uang anda : "+ money);
     }else if(age >= 17){
         console.log("Anda hanya boleh memesan anggur. Harga Anggur Rp. "+ anggur);
         money -= anggur;
-        console.log("Anda bisa pesan minum. Sisa uang anda : "+ money)
+        console.log("Anda bisa pesan minum. Sisa uang anda : "+ money);
     }else{
         console.log("Uang Anda tidak cukup, Anda harus pulang");
     }
