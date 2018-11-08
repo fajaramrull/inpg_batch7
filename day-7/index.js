@@ -1,6 +1,6 @@
 var name = "adi";
 var age = 17;
-var money = 20000;
+var money = 200000;
 var juice = 50000;
 var anggur = 100000;
 

@@ -1,0 +1,101 @@
+
+/* buat fungsi dengan nama loopinpangka dengan nilai minimal sebagai parameter pertama dan nilai akhir sebagai
+parameter kedua, contoh loopingangka(5, 9) menghasilkan 5,6,7,8,9 contoh kedua loopingangka (17, 28)
+loopingangka(33, 99)
+loopingangka(4, 25)
+
+soal kedua
+lanjutkan soal pertama namun keluarkan hasil ganjil dan genap
+
+looping angka (33, 99)
+loopingangka (4. 25)
+loopingangka(99, 122)
+
+soal ketiga buat fungsi luas segitiga
+
+soal empat buat fungsi luas lingkaran
+
+soal kelima
+cari nilai tengah yang menerima 2 parameter. jika nilai tengah tidak bulat maka bulatkan ke angka bawahnya
+contoh1 nilaitengah (33, 99) menghasilkan 66
+contoh2 nilaitengah(7,16) menghasilkan 11
+*/
+
+
+
+//jawaban soal pertama
+
+function loopingangka(angka1){
+  
+  for(angka1 = 5; angka1<=9; angka1++){
+    console.log(angka1);
+  }
+}
+
+function loopingangka1(angka2){
+  for(angka2 = 17; angka2<= 28; angka2++){
+    console.log(angka2);
+  }
+}
+
+//jawaban soal kedua
+
+function loopingangka2(angka3){
+  for(angka3 = 33; angka3 <= 99; angka3++){
+    if(angka3 % 2 === 0){
+      console.log("Angka Genap = " +angka3);
+    }else{
+      console.log("Angka Ganjil = " +angka3);
+    }
+  }
+}
+
+function loopingangka3(angka4){
+  for(angka4 = 4; angka4 <= 25; angka4++){
+    if(angka4 % 2 === 0){
+      console.log("Angka Genap = " +angka4);
+    }else{
+      console.log("Angka Ganjil = "+angka4);
+    }
+  }
+}
+
+function loopingangka4(angka5){
+  for(angka5 = 99; angka5 <= 122; angka5++){
+    if(angka5 % 2 === 0){
+      console.log("Angka Genap = " +angka5);
+    }else{
+      console.log("Angka Ganjil" + angka5);
+    }
+  }
+}
+
+//jawaban soal ketiga
+
+function luassetiga(alas,tinggi){
+  return alas * tinggi;
+}
+
+//jawaban soal keempat
+
+function luaslingkaran(diameter, jarijari){
+  return diameter * jarijari * 3.14;
+}
+
+//soal kelima
+
+function nilaitengah(nilai1 = 7, nilai2 = 16){
+  var nilait = (nilai1 + nilai2) / 2;
+  
+  if(nilait % 1 === 0){
+    console.log("Nilai Tengah = " +nilait);
+  }else if(nilait % 1 !== 0){
+    nilait -= 0.5;
+    console.log("Nilai Tengah = " +nilait);
+  }else{
+    console.log("Kondisi error !");
+  }
+}
+
+
+
