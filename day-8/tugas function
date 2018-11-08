@@ -73,7 +73,7 @@ function loopingangka4(angka5){
 //jawaban soal ketiga
 
 function luassetiga(alas,tinggi){
-  return alas * tinggi;
+  return (alas * tinggi) / 2;
 }
 
 //jawaban soal keempat
