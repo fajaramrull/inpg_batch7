@@ -1,0 +1,48 @@
+//soal 1 
+//buat array angka 1 - 100
+//pake function iterationnumber(angkaawal, angkaakhir)
+
+//soal 2
+//pake function iterationnumber seperti soal 1 tapi tambahkan ganjil genap disampingnya
+
+//soal 3
+//buat array 1 - 30 menggunakan function kaskus
+//jika angka habis dibagi 3 mengembalikan kas
+//jika angka habis dibagi 6 mengembalikan kus
+//jika angka habis dibagi 15 mengembalikan kaskus
+//contoh hasil return = [1,2 "kas", 4,5, "kus",7,8 "kas", 10,11 "kus", 13,14 "kaskus"]
+
+//jawaban soal 1 dan soal 2
+
+function iterationnumber(angkaawal, angkaakhir){
+  var angka = [];
+  
+  for(var i = angkaawal; i <= angkaakhir; i++){
+   if(i % 2 === 0){
+     angka.push(i, "= genap");
+   }else{
+     angka.push(i, "= ganjil");
+   }
+  }
+  return angka;
+}
+
+console.log(iterationnumber(1, 10));
+
+function kaskus(angka1, angka2){
+  var arr =[];
+  for(var i = angka1; i <= angka2; i++){
+    if(i % 15 === 0){
+      arr.push(i,"= KASKUS");
+    }else if(i % 6 === 0){
+      arr.push(i,"= KUS");
+    }else if(i % 3 === 0){
+      arr.push(i,"= KAS")
+    }else{
+      arr.push(i,"= KAS")
+    }
+  }
+  return arr;
+}
+
+console.log(kaskus(1, 30));
