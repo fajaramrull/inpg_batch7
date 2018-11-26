@@ -1,0 +1,11 @@
+store "penumpang" to any number max 4
+store "kecepatan becak" = 20
+
+if "penumpang" = 0
+  do "kecepatan becak 20 Km/jam"
+  else if "penumpang" > 2
+    do "kecepatan becak  - 5"
+    else if "penumpang" = 4
+      do "kecepatan becak - 7"
+      else
+        do "kecepatan - 2"
