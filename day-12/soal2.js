@@ -1,6 +1,5 @@
 var text = 'dimitri:dimitri@mail.com:male,icha:icha@mail.com:female,windi:windi@mail.com:female';
 var array = [];
-var tex2;
 var txt = [];
 
 

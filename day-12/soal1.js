@@ -15,9 +15,9 @@ var people = [
   ];
 
   for(var i=0; i<people.length; i++){
-      for(var j = 0; j<people[i].length; j++){
+    //   for(var j = 0; j<people[i].length; j++){
       
-    }
+    // }
     console.log("ID: "+people[i][0],"Name: "+people[i][1],"Company: "+people[i][2]);
   }
 
